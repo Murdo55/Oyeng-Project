@@ -1,0 +1,236 @@
+
+/* Bioskop HTML */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.bungkus {
+	width: 1100px;
+	margin: auto;
+	margin-top: 20px;
+	overflow: auto;
+}
+.search {
+	border: 4px solid chartreuse;
+	width: 280px;
+	border-radius: 40px;
+	height: 30px;
+}
+.input {
+	outline: none;
+	height: 30px;
+	width: 200px;
+	border-radius: 40px;
+	border: 0;
+}
+.src {
+	background: transparent;
+	color: whitesmoke;
+	outline: none;
+	border: 0;
+	padding-left: 10px;
+}
+.search:hover {
+	background-color: salmon;
+}
+body {
+  	font: 16px/28px arial, sans-serif;
+  	background-color: #333;
+  	background-image: url("qbkls.png");
+  	
+}
+.judul {
+	text-align: center;
+	color: chartreuse;
+}
+.header {
+	background-color: #556B2F;
+	padding: 10px;
+	height: 60px;
+	width: 100%;
+	margin: auto;
+}
+.header li a {
+	color: chartreuse;
+	text-decoration: none;
+}
+.header ul li {
+ 	float: left;
+ 	margin-right: 50px;
+ 	margin-top: 10px;
+ 	margin-left: 20px;
+ 	list-style: none;
+ }
+.header ul li :hover {
+	background-color: salmon;
+	color: white;
+	padding: 3px;
+	border-radius: 5px;
+}
+.header form {
+	float: right;
+	margin-top: 0px;
+	margin-right: 15px;
+}
+.kotak {
+	width: 150px;
+	height: 250px;
+	background-color: chartreuse;
+	color: white;
+	text-shadow: 10px black;
+	margin: 15px;
+	text-align: center;
+	line-height: 450px;
+	border-radius: 5px;
+	background-image: url("Incridibel 2.png");
+	background-size: cover;
+	float: left;
+}
+.clear {
+	clear: left;
+}
+.footer {
+	background-color: #556B2F;
+	padding: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.halaman {
+	width: auto;
+	margin: auto;
+	margin-left: 300px;
+	margin-right: 200px;
+}
+.kotakcilik {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	color: black;
+	margin-left: 30px;
+	box-shadow: 2px 3px 10px black;
+	border-radius: 5px;
+}
+.kotakcilik:hover {
+	background-color: lightblue;
+	color: darkgoldenrod;
+}
+.kotakcilik2 {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	float: left;
+	margin-left: 30px;
+	box-shadow: 2px 3px 10px black;
+	border-radius: 5px;
+}
+.kotakcilik2:hover {
+	background-color: lightblue;
+	color: darkgoldenrod;
+}
+.kotakcilik3 {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	color: black;
+	margin-left: 30px;
+	box-shadow: 2px 3px 10px black;
+	border-radius: 5px;
+}
+.kotakcilik3:hover {
+	background-color: lightblue;
+	color: darkgoldenrod;
+}
+
+/* streaming HTML */
+
+
+.bungkus2 {
+	width: 950px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 30px;
+	overflow: auto;
+	
+}
+.bungkus2 ul li {
+	float: left;
+	list-style: none;
+ 	margin-right: 10px;
+ 	margin-left: 5px;
+}
+.bungkus2 li a {
+	color: black;
+	text-decoration: none;
+}
+.bungkus2 li a:hover {
+	color: salmon;
+}
+.video {
+	width: 950px;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+.video video {
+	width: 950px;
+	border-radius: 10px;
+}
+h2  {
+	width: 950px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.detail {
+	width: 950px;
+	height: 500px;
+	border-top: 3px solid bisque;
+	border-bottom: 3px solid black;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.kotakgambar {
+	width: 150px;
+	height: 250px;
+	background-image: url("Incridibel 2.png");
+	background-size: cover;
+	margin: 15px;
+	text-align: center;
+	border-radius: 10px;
+	float: left;
+}
+.detail ul li {
+	margin: auto;
+	margin-top: 20px;
+	list-style: none;
+	padding: 3px;
+	background-color: ghostwhite;
+	opacity: 50%;
+	color: solid black;
+}
+.kotakdetail {
+	margin-left: 180px;
+	margin-right: 370px;
+	margin-top: 20px;	
+}
+.kotakdetail2 {
+	margin-right: 10px;
+	margin-left: 600px;
+	margin-top: -160px;
+}
